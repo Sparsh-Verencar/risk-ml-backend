@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 # ====================================================================
 # LOAD DATA
 # ====================================================================
-df = pd.read_csv('preprocessed_supply_chain_resilience_dataset.csv')
+df = pd.read_csv(r'D:\risk-ml-backend\RandomForestModel\preprocessed_supply_chain_resilience_dataset.csv')
 print("Dataset loaded successfully!")
 print(f"Shape: {df.shape}")
 

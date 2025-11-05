@@ -1,8 +1,8 @@
 import joblib
 
 # Load trained model and scaler
-rf_model = joblib.load('random_forest_model.pkl')
-scaler = joblib.load('scaler.pkl')
+rf_model = joblib.load(r'D:\risk-ml-backend\RandomForestModel\trainedmodel\random_forest_model.pkl')
+scaler = joblib.load(r'D:\risk-ml-backend\RandomForestModel\trainedmodel\scaler.pkl')
 
 # Get the feature names in exact order used for training
 feature_names = list(scaler.feature_names_in_)
