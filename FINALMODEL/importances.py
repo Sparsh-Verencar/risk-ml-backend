@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # ===========================================================
 # LOAD TRAINED MODEL
 # ===========================================================
-model_path = r'D:\MODELTEST\testtrain\normalized_random_forest.pkl'
+model_path = r'D:\Risk_ml_backend\risk-ml-backend\FINALMODEL\RandomForest\normalized_random_forest.pkl'
 rf_model = joblib.load(model_path)
 print("✅ Model loaded successfully!")
 
