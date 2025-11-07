@@ -1,0 +1,24 @@
+D:\risk-ml-backend\RandomForestModel\trainedmodel\random_forest_model.pkl
+D:\risk-ml-backend\RandomForestModel\trainedmodel\scaler.pkl
+D:\risk-ml-backend\RandomForestModel\trainedmodel\label_encoders.pkl
+
+FILE PATHS:
+replace the file paths accordingly in the code depending on the drive. for example, for D drive use above. 
+
+FOR JYUPTER:
+To use Jyupter VSCODE, download microsoft extension for Jyupter from extension section. You can tweak the values with sliders and see real time graph.
+
+FOR TRAINING:
+exclude_cols = ['Delay_Days', 'Disruption_Type', 'Disruption_Severity'] . the columns removed from csv. 
+Also check the csv file path incase loading issue. 
+
+FOR TESTING:
+You may use modeltest or otherstest  . Others test was made for testing changing code. 
+
+Importances:
+Importances can be checked from importances.py.
+
+**you may ignore transformlearnt, it was for testing yeo jhonson transform which is discarded nnow
+
+Skewness for the Dataset:
+can be checked from skewnesscheck.py . shows the dataset skewness (includes delivery and disruption)
